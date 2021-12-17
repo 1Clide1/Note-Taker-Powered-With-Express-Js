@@ -1,23 +1,34 @@
-// import express
+// import express:
+
 const express = require('express');
 const app= express();
-// require/get everything else that I need for this project
+// require/get everything else that I need for this project:
+
 const PORT = 3001;
 // fs module for db.json file
 const fs= require('fs');
 const path= require('path');
 const dbJson= ('db/db.json');
-// get express middlewear/express functions if needed
+// get express middlewear/express functions if needed:
+
+// this looks at the folder called public and loads all of the files 
+// without having to write the full path for each item in that folder to load
 app.use(express.static('public'));
+
 // below is basically home address
-// GET * should return the index.html file.
+// GET * should return the index.html file:
+
 app.get('/', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/index.html'))
 );
-// below is website/notes
-// GET /notes should return the notes.html file.
 
-// GET /api/notes should read the db.json file and return all saved notes as JSON
+// below is website/notes
+// GET /notes should return the notes.html file:
+
+app.get('/notes', (req, res) =>
+  res.sendFile(path.join(__dirname, '/public/notes.html'))
+);
+// GET /api/notes should read the db.json file and return all saved notes as JSON:
 
 // POST /api/notes should receive a new note to save on the request body, 
 // add it to the db.json file, 
