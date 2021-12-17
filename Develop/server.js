@@ -1,9 +1,8 @@
 // import express
-
+const express = require('express')
+const app= express()
 // require everything else that I need for this project
-
-
-
+const fs= require('fs')
 // below is basically home address
 // GET * should return the index.html file.
 
