@@ -1,11 +1,11 @@
 [
   {
-    "title": "Test Title",
-    "text": "Test text"
+    "title": "Greetings",
+    "text": "hello world"
   },
   {
-    "title": "hello",
-    "text": "hello world",
+    "title": "Saved notes here!",
+    "text": "saved notes are left in this location",
     "note_id": "21c0"
   }
 ]
