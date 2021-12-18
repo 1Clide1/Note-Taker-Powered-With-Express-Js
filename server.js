@@ -4,7 +4,7 @@ const express = require('express');
 const app= express();
 // require/get everything else that I need for this project:
 
-const PORT = 3001;
+const PORT = process.env.PORT ||3001;
 // fs module for db.json file
 const fs= require('fs');
 const path= require('path');
