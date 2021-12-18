@@ -1,6 +1,6 @@
 # Note Taker Powered With Express Js
 # Screenshot
-![Screenshot](/Assets/notetaker.jpg "Screenshot")
+![Screenshot](/Assets/notetaker.png "Screenshot")
 # Link to website
 [Click Here To View](https://note-taker-powered-by-express.herokuapp.com/)
 ## Table Of Contents
