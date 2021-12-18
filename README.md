@@ -1,5 +1,8 @@
 # Note Taker Powered With Express Js
-  
+# Screenshot
+![Screenshot](/Assets/notetaker.jpg "Screenshot")
+# Link to website
+[Click Here To View](https://note-taker-powered-by-express.herokuapp.com/)
 ## Table Of Contents
   
 * [Description](#Description)
@@ -34,7 +37,8 @@ GitHub: [1Clide1](https://github.com/1Clide1)
 
   
 ## Installation
-  
+*Make sure to have node.js and npm installed for this project*
+
 To run this app on your end just clone my repo, open your favorite ide of choice (for me that is vs code), once it's open just run the command npm i, once the dependecy is downloaded, open server.js in your integrated terminal and type node server.js the console will give you a link that you can copy and paste into the browser for you to test the app for yourself. Or you can use the link I provided above to test out the app as well.
   
 ## Usage
